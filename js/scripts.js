@@ -1,6 +1,6 @@
 'use strict';
 
-$(document).ready(function() {
+$(document).ready(function () {
   $('body').hide().fadeIn(3000);
 
   let current_delay = 1000;
@@ -28,26 +28,15 @@ $(document).ready(function() {
   $("#rights").delay(current_delay).css("opacity", 0).animate({
     opacity: 1
   }, 3000);
-  particlesJS.load('particles-js', 'particles.json', function() {
+  particlesJS.load('particles-js', 'particles.json', function () {
     console.log('callback - particles-js config loaded');
   });
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
 document.ondragstart = noSelect;
 document.oncontextmenu = noSelect;
 document.onselectstart = noSelect;
+
 function noSelect() {
   return false
 }

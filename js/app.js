@@ -51,7 +51,7 @@ particlesJS('particles-js',
           }
         },
         "size": {
-          "value": 5,
+          "value": 2,
           "random": true,
           "anim": {
             "enable": false,
@@ -96,7 +96,7 @@ particlesJS('particles-js',
         },
         "modes": {
           "grab": {
-            "distance": 400,
+            "distance": 150,
             "line_linked": {
               "opacity": 1
             }
