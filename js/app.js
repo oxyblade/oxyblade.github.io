@@ -3,11 +3,11 @@
 /* ----------------------------------------------- */
 
 /* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
-/*
+
 particlesJS.load('particles-js', 'particles.json', function() {
   console.log('particles.js loaded - callback');
 });
-*/
+
 
 /* Otherwise just put the config content (json): */
 
@@ -51,7 +51,7 @@ particlesJS('particles-js',
           }
         },
         "size": {
-          "value": 2,
+          "value": 5,
           "random": true,
           "anim": {
             "enable": false,
@@ -96,7 +96,7 @@ particlesJS('particles-js',
         },
         "modes": {
           "grab": {
-            "distance": 150,
+            "distance": 400,
             "line_linked": {
               "opacity": 1
             }
