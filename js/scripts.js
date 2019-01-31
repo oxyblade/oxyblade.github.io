@@ -30,6 +30,7 @@ $(document).ready(function () {
   }, 3000);
   particlesJS.load('particles-js', 'particles.json', function () {
     console.log('callback - particles-js config loaded');
+    console.log('Page is loaded');
   });
 });
 
