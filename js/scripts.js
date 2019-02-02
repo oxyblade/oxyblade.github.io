@@ -2,6 +2,7 @@
 
 $(document).ready(function () {
   $('body').hide().fadeIn(3000);
+  $('#particles-js').hide().fadeIn(3000);
 
   let current_delay = 1000;
   $("#title").css("opacity", 0).animate({
@@ -30,9 +31,7 @@ $(document).ready(function () {
   }, 3000);
   particlesJS.load('particles-js', 'particles.json', function () {
     console.log('callback - particles-js config loaded');
-    setTimeout(function () {
-      console.log('Page is loaded');
-    }, 5000);
+    console.log('Page is loaded');
   });
 });
 
