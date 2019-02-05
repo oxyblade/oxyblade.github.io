@@ -31,7 +31,9 @@ $(document).ready(function () {
   }, 3000);
   particlesJS.load('particles-js', 'particles.json', function () {
     console.log('callback - particles-js config loaded');
-    console.log('Page is loaded');
+    setTimeout(function () {
+      console.log('Page is loaded');
+    }, 3000);
   });
 });
 
