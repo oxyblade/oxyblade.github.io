@@ -1,9 +1,17 @@
+@font-face {
+    font-family: 'Audiowide';
+    src: url("../fonts/Audiowide-Regular.ttf");
+}
+
 *, *:before, *:after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 /* COMMON */
@@ -239,13 +247,22 @@ body {
     overflow: hidden;
 }
 
-.demo {
+.demo,
+.pre-loader-text {
     width: 100px;
     height: 102px;
     border-radius: 100%;
     position: absolute;
     top: 45%;
     left: calc(50% - 50px);
+}
+
+.pre-loader-text {
+    color: #cba170;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 42px;
+    font-family: 'Audiowide', cursive;
 }
 
 .circle {
