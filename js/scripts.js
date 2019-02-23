@@ -42,7 +42,7 @@ jQuery(window).on('load', function () {
   $preloader = $('.pre-loader');
   $loader = $preloader.find('.pre-loader');
   $loader.fadeOut();
-  $preloader.delay(2000).fadeOut('slow');
+  $preloader.delay(200000).fadeOut('slow');
 });
 
 // forbiddance
