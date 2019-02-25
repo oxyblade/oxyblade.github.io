@@ -12,6 +12,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+    outline: none;
 }
 
 /* COMMON */
@@ -33,6 +34,14 @@ body {
     margin: 0;
     font-size: 16px;
     overflow: hidden;
+}
+
+canvas {
+    position: absolute;
+    object-fit: cover;
+    min-width: 100%;
+    max-width: 100%;
+    height: -webkit-fill-available;
 }
 
 .wrapper {
