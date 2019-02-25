@@ -36,14 +36,6 @@ body {
     overflow: hidden;
 }
 
-canvas {
-    position: absolute;
-    object-fit: cover;
-    min-width: 100%;
-    max-width: 100%;
-    height: -webkit-fill-available;
-}
-
 .wrapper {
     position: relative;
     top: 40%;
