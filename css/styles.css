@@ -238,6 +238,19 @@ body {
     margin-top: 10px;
     opacity: 0;
     text-align: center;
+    transition: 1s;
+}
+
+footer span {
+    transition: 1s;
+}
+
+#rights:hover {
+    text-shadow: 1px 1px 1px black, 0 0 1em #cba170;
+}
+
+footer span:hover {
+    text-shadow: 1px 1px 1px black, 0 0 1em #cba170;
 }
 
 /* PRELOADER */
