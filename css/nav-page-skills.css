@@ -43,6 +43,11 @@ body {
 
 #particles-js {
     opacity: 0.4;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
 
 canvas.particles-js-canvas-el {
@@ -53,6 +58,7 @@ canvas.particles-js-canvas-el {
     position: absolute;
     left: 0;
     right: 0;
+    margin-bottom: 2rem;
 }
 
 .wrapper-skills {
@@ -97,55 +103,9 @@ canvas.particles-js-canvas-el {
     }
 }*/
 
-/* FOOTER */
-#footer {
-    color: #999;
-    font-size: 0.85em;
-    padding-top: 10px;
-    opacity: 0;
-    text-align: center;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -37rem;
-}
-
-#rights {
-    color: #999;
-    font-size: 0.8em;
-    margin-top: 10px;
-    opacity: 0;
-    text-align: center;
-    transition: 1s;
-}
-
-footer span {
-    transition: 1s;
-}
-
-#rights:hover {
-    text-shadow: 1px 1px 1px black, 0 0 1em #cba170;
-}
-
-footer span:hover {
-    text-shadow: 1px 1px 1px black, 0 0 1em #cba170;
-}
-
 /* media query */
-@media (max-width: 646px) {
-    #footer {
-        bottom: -92rem;
-    }
-}
-
-@media (min-width: 647px) and (max-width: 862px) {
-    #footer {
-        bottom: -51rem;
-    }
-}
-
 @media (max-width: 430px) {
-    #footer {
-        bottom: -212rem;
+    .skills-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
 }
