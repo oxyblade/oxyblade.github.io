@@ -58,6 +58,10 @@ body {
 }
 
 /* HEADER */
+#title {
+    text-shadow: #111 0 0 20px;
+}
+
 .wrapper header {
     /*width: 100%;*/
     padding: 0;

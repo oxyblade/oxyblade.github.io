@@ -5,12 +5,12 @@ $(document).ready(function () {
   // $('body').hide().fadeIn(3000);
 
   let current_delay = 3000;
-  $("#title").css("opacity", 0).animate({
+  $("#title").delay(2500).fadeIn(3000).css("opacity", 0).animate({
     opacity: 1
   }, 10000);
   $("#menu").css("opacity", 0).delay(current_delay).animate({
     opacity: 1
-  }, 4000);
+  }, 7000);
   $(".icons li").delay(current_delay).each(function () {
     current_delay += 100;
     console.log(current_delay);
