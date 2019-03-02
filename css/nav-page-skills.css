@@ -76,6 +76,7 @@ body {
     display: none;
     text-align: center;
     text-transform: uppercase;
+    text-shadow: #000 0 0 20px;
 }
 
 .skills-grid {
@@ -96,11 +97,18 @@ body {
     margin-left: 5px;
     margin-right: 5px;
     flex: 1 1 200px;
-    /*border-radius: 10px;*/
-    border: #885f44 solid 1px;
+    border-radius: 6px;
+    /*border: #885f44 solid 1px;*/
     color: #cba170;
     text-transform: uppercase;
     text-align: center;
+    box-shadow: #666 0 0 10px;
+    -webkit-box-shadow: #666 0 0 10px;
+    -moz-box-shadow: #666 0 0 10px;
+}
+
+.skill span {
+    text-shadow: #000 0 0 20px;
 }
 
 /*@supports (display: grid) {
