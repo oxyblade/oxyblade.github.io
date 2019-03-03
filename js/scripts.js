@@ -1,5 +1,6 @@
 // 'use strict';
 
+// main content
 $(document).ready(function () {
   // 'use strict';
   // $('body').hide().fadeIn(3000);
@@ -44,6 +45,13 @@ jQuery(window).on('load', function () {
   $loader.fadeOut();
   $preloader.delay(2000).fadeOut('slow');
 });
+
+// preloader animation css
+const  preLoaderAnimationHomePage = document.querySelector('.pre-loader-text');
+preLoaderAnimationHomePage.classList.add('animated', 'flipInY', 'slow');
+
+// const  navPageSkills = document.querySelector('.nav-page-skills');
+// navPageSkills.classList.add('animated', 'flipInY', 'slow');
 
 // forbiddance
 document.ondragstart = noSelect;

@@ -29,6 +29,10 @@ jQuery(window).on('load', function () {
   $preloader.delay(2000).fadeOut('slow');
 });
 
+// preloader animation css
+const  preLoaderAnimationHomePage = document.querySelector('.pre-loader-text');
+preLoaderAnimationHomePage.classList.add('animated', 'flipInY', 'slow');
+
 // forbiddance
 document.ondragstart = noSelect;
 document.oncontextmenu = noSelect;
