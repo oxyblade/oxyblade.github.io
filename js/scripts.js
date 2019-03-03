@@ -66,6 +66,13 @@ animateFaTwitter.classList.add('animated', 'delay-3s', 'infinite', 'rubberBand',
 const  animateFaEnvelopeO = document.querySelector('.fa-envelope-o');
 animateFaEnvelopeO.classList.add('animated', 'delay-2s', 'infinite', 'rubberBand', 'slow');
 
+// title animation
+const  animateTitle = document.querySelector('#title');
+animateTitle.classList.add('animated', 'infinite', 'pulse');
+
+const  animateMenu = document.querySelector('.menu');
+animateMenu.classList.add('animated', 'infinite', 'pulse');
+
 // forbiddance
 document.ondragstart = noSelect;
 document.oncontextmenu = noSelect;

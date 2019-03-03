@@ -60,6 +60,7 @@ body {
 /* HEADER */
 #title {
     text-shadow: #111 0 0 20px;
+    animation-duration: 10s;
 }
 
 .wrapper header {
@@ -90,6 +91,7 @@ body {
     margin: 0;
     opacity: 0;
     padding: 0 0 6px;
+    animation-duration: 17s;
 }
 
 .wrapper .menu li {

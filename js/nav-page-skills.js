@@ -33,6 +33,10 @@ jQuery(window).on('load', function () {
 const  preLoaderAnimationHomePage = document.querySelector('.pre-loader-text');
 preLoaderAnimationHomePage.classList.add('animated', 'flipInY', 'slow');
 
+// title skills animation
+const  animateTitleSkills = document.querySelector('.skills');
+animateTitleSkills.classList.add('animated', 'infinite', 'pulse');
+
 // forbiddance
 document.ondragstart = noSelect;
 document.oncontextmenu = noSelect;
