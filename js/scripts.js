@@ -46,12 +46,25 @@ jQuery(window).on('load', function () {
   $preloader.delay(2000).fadeOut('slow');
 });
 
-// preloader animation css
+// preloader animation css lib
 const  preLoaderAnimationHomePage = document.querySelector('.pre-loader-text');
 preLoaderAnimationHomePage.classList.add('animated', 'flipInY', 'slow');
 
-// const  navPageSkills = document.querySelector('.nav-page-skills');
-// navPageSkills.classList.add('animated', 'flipInY', 'slow');
+// social icons animation css lib
+const  animateFaVk = document.querySelector('.fa-vk');
+animateFaVk.classList.add('animated', 'infinite', 'rubberBand', 'slow');
+
+const  animateFaFacebook = document.querySelector('.fa-facebook');
+animateFaFacebook.classList.add('animated', 'infinite', 'rubberBand', 'slow');
+
+const  animateFaLinkedin = document.querySelector('.fa-linkedin');
+animateFaLinkedin.classList.add('animated', 'infinite', 'rubberBand', 'slow');
+
+const  animateFaTwitter = document.querySelector('.fa-twitter');
+animateFaTwitter.classList.add('animated', 'infinite', 'rubberBand', 'slow');
+
+const  animateFaEnvelopeO = document.querySelector('.fa-envelope-o');
+animateFaEnvelopeO.classList.add('animated', 'infinite', 'rubberBand', 'slow');
 
 // forbiddance
 document.ondragstart = noSelect;
