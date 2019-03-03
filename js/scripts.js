@@ -55,16 +55,16 @@ const  animateFaVk = document.querySelector('.fa-vk');
 animateFaVk.classList.add('animated', 'infinite', 'rubberBand', 'slow');
 
 const  animateFaFacebook = document.querySelector('.fa-facebook');
-animateFaFacebook.classList.add('animated', 'infinite', 'rubberBand', 'slow');
+animateFaFacebook.classList.add('animated', 'delay-3s', 'infinite', 'rubberBand', 'slow');
 
 const  animateFaLinkedin = document.querySelector('.fa-linkedin');
-animateFaLinkedin.classList.add('animated', 'infinite', 'rubberBand', 'slow');
+animateFaLinkedin.classList.add('animated', 'delay-2s', 'infinite', 'rubberBand', 'slow');
 
 const  animateFaTwitter = document.querySelector('.fa-twitter');
-animateFaTwitter.classList.add('animated', 'infinite', 'rubberBand', 'slow');
+animateFaTwitter.classList.add('animated', 'delay-3s', 'infinite', 'rubberBand', 'slow');
 
 const  animateFaEnvelopeO = document.querySelector('.fa-envelope-o');
-animateFaEnvelopeO.classList.add('animated', 'infinite', 'rubberBand', 'slow');
+animateFaEnvelopeO.classList.add('animated', 'delay-2s', 'infinite', 'rubberBand', 'slow');
 
 // forbiddance
 document.ondragstart = noSelect;

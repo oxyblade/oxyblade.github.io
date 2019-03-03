@@ -42,7 +42,7 @@ particlesJS('particles-js',
         },
         "opacity": {
           "value": 0.5,
-          "random": false,
+          "random": true,
           "anim": {
             "enable": false,
             "speed": 1,
@@ -51,7 +51,7 @@ particlesJS('particles-js',
           }
         },
         "size": {
-          "value": 3,
+          "value": 2,
           "random": true,
           "anim": {
             "enable": false,
@@ -90,13 +90,13 @@ particlesJS('particles-js',
           },
           "onclick": {
             "enable": true,
-            "mode": "push"
+            "mode": "grab"
           },
           "resize": true
         },
         "modes": {
           "grab": {
-            "distance": 400,
+            "distance": 150,
             "line_linked": {
               "opacity": 1
             }
