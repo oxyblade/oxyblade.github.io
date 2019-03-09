@@ -29,12 +29,16 @@ jQuery(window).on('load', function () {
   $preloader.delay(2000).fadeOut('slow');
 });
 
+setTimeout(function () {
+  console.log('Page is loaded');
+}, 3000);
+
 // preloader animation css
-const  preLoaderAnimationHomePage = document.querySelector('.pre-loader-text');
+const preLoaderAnimationHomePage = document.querySelector('.pre-loader-text');
 preLoaderAnimationHomePage.classList.add('animated', 'flipInY', 'slow');
 
 // title skills animation
-const  animateTitleSkills = document.querySelector('.skills');
+const animateTitleSkills = document.querySelector('.skills');
 animateTitleSkills.classList.add('animated', 'infinite', 'pulse');
 
 // forbiddance
