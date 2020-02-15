@@ -11,15 +11,16 @@ $('.skill-06').hide().delay(7000).fadeIn(3000);
 $('.skill-07').hide().delay(7300).fadeIn(3000);
 $('.skill-08').hide().delay(7600).fadeIn(3000);
 $('.skill-09').hide().delay(7900).fadeIn(3000);
-$('.skill-10').hide().delay(8200).fadeIn(3000);
-$('.skill-11').hide().delay(8500).fadeIn(3000);
-$('.skill-12').hide().delay(8800).fadeIn(3000);
-$('.skill-13').hide().delay(9100).fadeIn(3000);
-$('.skill-14').hide().delay(9400).fadeIn(3000);
-$('.skill-15').hide().delay(9700).fadeIn(3000);
-$('.skill-16').hide().delay(10000).fadeIn(3000);
-$('.skill-17').hide().delay(10300).fadeIn(3000);
-$('.skill-18').hide().delay(10600).fadeIn(3000);
+$('.skill-09-1').hide().delay(8200).fadeIn(3000);
+$('.skill-10').hide().delay(8500).fadeIn(3000);
+$('.skill-11').hide().delay(8800).fadeIn(3000);
+$('.skill-12').hide().delay(9100).fadeIn(3000);
+$('.skill-13').hide().delay(9400).fadeIn(3000);
+$('.skill-14').hide().delay(9700).fadeIn(3000);
+$('.skill-15').hide().delay(10000).fadeIn(3000);
+$('.skill-16').hide().delay(10300).fadeIn(3000);
+$('.skill-17').hide().delay(10600).fadeIn(3000);
+$('.skill-18').hide().delay(10900).fadeIn(3000);
 
 // preloader
 jQuery(window).on('load', function () {
