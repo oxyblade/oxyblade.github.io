@@ -14,11 +14,34 @@
           overflow: hidden;
       }
 
-      img {
+      .bg {
           width: 100%;
           height: 100vh;
           -o-object-fit: cover;
           object-fit: cover;
+      }
+
+      .social {
+          /*display: block;*/
+          position: absolute;
+          bottom: 2rem;
+          right: 2rem;
+      }
+
+      .social .social__img {
+          width: 48px;
+          height: auto;
+          -ms-filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.6));
+          filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.6));
+          -webkit-transition: 0.2s;
+          -moz-transition: 0.2s;
+          -ms-transition: 0.2s;
+          -o-transition: 0.2s;
+          transition: 0.2s;
+      }
+
+      .social .social__img:hover {
+          transform: scale(1.2);
       }
   </style>
 
@@ -60,7 +83,12 @@
 </head>
 <body>
 
-<img src="img/bg-min.png" title="AZ - Web Developer" alt="AZ - Web Developer">
+<img class="bg" src="img/bg-min.png" title="AZ - Web Developer" alt="AZ - Web Developer">
+<div class="social">
+  <a href="https://t.me/oxyfly" title="Telegram">
+    <img class="social__img" src="img/icons/telegram.svg" alt="Telegram" title="Telegram">
+  </a>
+</div>
 
 <script>
   document.ondragstart = noSelect;
