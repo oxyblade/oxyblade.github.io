@@ -8,3 +8,9 @@
 User-agent: *
 # Private pages
 Disallow: /
+
+User-agent: Googlebot
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
