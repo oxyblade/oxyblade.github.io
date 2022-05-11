@@ -6,7 +6,7 @@
 # http://www.robotstxt.org/robotstxt.html
 
 User-agent: *
-# Private pages1
+# Private pages
 Disallow: /
 
 User-agent: Googlebot
