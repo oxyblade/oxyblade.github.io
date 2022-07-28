@@ -1,2 +1,5 @@
 # Prevent Directoy listing
 Options -Indexes
+
+# Disable directory browsing
+Options All -Indexes
