@@ -6,11 +6,5 @@
 # http://www.robotstxt.org/robotstxt.html
 
 User-agent: *
-# Private pages
-Disallow: /
-
-User-agent: Googlebot
-Disallow: /
-
-User-agent: Yandex
-Disallow: /
+Allow: /
+Sitemap: https://oxyblade.github.io/sitemap.xml
