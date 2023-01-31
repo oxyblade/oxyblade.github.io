@@ -1,6 +1,6 @@
 # This file is to prevent the crawling and indexing of certain parts
 # of your site by web crawlers and spiders run.
-# By telling these "robots" where not to go on your site,
+# By telling these "robots" where not to go on your site,1
 # you save bandwidth and server resources.
 # For more information about the robots.txt standard, see:
 # http://www.robotstxt.org/robotstxt.html
